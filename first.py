@@ -1,3 +1,10 @@
 def hi():
-    print("Bye")
+    print("hello")
+    print(hello())
+    
+    
+def hello():
+    return("Bye")
+
+
 ob=hi()
